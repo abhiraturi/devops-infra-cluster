@@ -170,3 +170,11 @@ Access Denied: Double-check your "Storage Blob Data Contributor" role assignment
 409 Conflict: You forgot to register the required provider (e.g., Microsoft.ContainerService).
 
 400 Bad Request: You are using a VM SKU not permitted by your subscription's quota—check the error list and pick an allowed v7 SKU.
+
+
+Now connect to cluster:
+az aks get-credentials --resource-group devops-project-rg --name devops-cluster --overwrite-existing
+
+
+and get nodes:
+k get nodes
