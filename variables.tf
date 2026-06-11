@@ -16,5 +16,5 @@ variable "node_count" {
 
 variable "vm_size" {
   description = "Size of the VM nodes"
-  default     = "Standard_B2s"
+  default     = "Standard_DS2_v2"
 }
