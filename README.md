@@ -178,3 +178,5 @@ az aks get-credentials --resource-group devops-project-rg --name devops-cluster 
 
 and get nodes:
 k get nodes
+
+#updating to trigger
